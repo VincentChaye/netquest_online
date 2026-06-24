@@ -1,5 +1,4 @@
-// Petit client pour parler à l'API du back (toutes les requêtes passent par /api).
-const API = '/api';
+const API = import.meta.env.VITE_API_URL ?? '/api';
 
 async function readJson(res, erreur) {
   if (!res.ok) {
