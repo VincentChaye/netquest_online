@@ -1,0 +1,30 @@
+# Claude
+.claude/
+CONTEXT_*.md
+*.claude.md
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,45 @@
+{
+  "_comment": "Tables de routage par continent — repris de wokwi/game-config.json (clé routage). 'correct' = index de la bonne ligne (préfixe le plus long). Données serveur uniquement (le ✓ et 'correct' ne sont jamais envoyés au front).",
+  "EU": { "dest": "91.198.174.192", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["91.0.0.0", "/8", "Passerelle EU-West"],
+    ["91.198.0.0", "/16", "Réseau Europe"],
+    ["91.198.174.0", "/24", "Wikipedia (Amsterdam) ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]},
+  "NA": { "dest": "142.250.80.46", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["142.0.0.0", "/8", "Passerelle NA-East"],
+    ["142.250.0.0", "/16", "Google Cloud US"],
+    ["142.250.80.0", "/24", "Google — Mountain View ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]},
+  "AS": { "dest": "103.1.206.90", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["103.0.0.0", "/8", "Passerelle AS-Pacific"],
+    ["103.1.0.0", "/16", "YouTube Asie-Pacifique"],
+    ["103.1.206.0", "/24", "YouTube — Tokyo ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]},
+  "SA": { "dest": "208.80.153.224", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["208.0.0.0", "/8", "Transit SA"],
+    ["208.80.0.0", "/16", "Wikimedia Foundation"],
+    ["208.80.153.0", "/24", "Wikimedia — São Paulo ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]},
+  "AF": { "dest": "102.213.64.10", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["102.0.0.0", "/8", "Transit Afrique"],
+    ["102.213.0.0", "/16", "CDN Afrique"],
+    ["102.213.64.0", "/24", "Serveur Afrique du Sud ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]},
+  "OC": { "dest": "203.2.218.70", "correct": 3, "rows": [
+    ["10.0.0.0", "/8", "Réseau local"],
+    ["203.0.0.0", "/8", "Transit Océanie"],
+    ["203.2.0.0", "/16", "CDN Australie"],
+    ["203.2.218.0", "/24", "Serveur Sydney ✓"],
+    ["0.0.0.0", "/0", "Passerelle par défaut"]
+  ]}
+}

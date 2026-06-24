@@ -1,0 +1,38 @@
+/* ════════════════════════════════════════════════════
+   NetQuest — jetons de design
+   Thème : « la maison allumée dans la nuit d'Internet »
+   (palette des protocoles reprise de site/css/style.css)
+   ════════════════════════════════════════════════════ */
+:root {
+  /* Le monde extérieur : la nuit d'Internet */
+  --nuit:      #0b1026;
+  --nuit-2:    #131a3d;
+  --etoile:    #cdd6ff;
+
+  /* Surfaces des panneaux */
+  --surface:   #161c33;
+  --surface-2: #1f2746;
+  --border:    #2c3358;
+  --text:      #eef1ff;
+  --muted:     #9aa3c7;
+
+  /* Les 4 protocoles (= les 4 jetons à collecter) */
+  --dns:  #F5C000;
+  --ip:   #29A8D9;
+  --tcp:  #4CB68A;
+  --http: #e74c3c;
+
+  /* La maison (chaleur) */
+  --lampe: #ffd27d;
+
+  /* Rayons & ombres */
+  --r-lg: 22px;
+  --r-md: 14px;
+  --r-sm: 9px;
+  --ombre: 0 18px 40px rgba(0, 0, 0, 0.38);
+
+  /* Typographies */
+  --font-display: 'Fredoka', 'Outfit', system-ui, sans-serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
